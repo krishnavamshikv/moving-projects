@@ -1,0 +1,98 @@
+# User Excluded Projects
+clone_premire_pro/
+
+# Security, Environment & Secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.pkcs12
+*.cer
+*.crt
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+*secret*
+*credential*
+*token*
+*.token
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# AI & ML Model Weights / Large Checkpoints (>100MB GitHub limit)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Dependencies & Package Managers
+node_modules/
+.pnpm-store/
+
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Build Outputs & Bundlers
+dist/
+build/
+out/
+.output/
+.svelte-kit/
+.next/
+.nuxt/
+.parcel-cache/
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# C / C++ & CMake Artifacts
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Operating System & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# AI & Assistant Internal Data
+.claude/
+.agents/
+.antigravity/
+.gemini/

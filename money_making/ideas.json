@@ -1,0 +1,56 @@
+[
+  {
+    "id": "idea-001",
+    "title": "AI Influencer Fashion Reviews & Meesho Reselling",
+    "description": "Make AI influencer fashion review videos using Google Flow and earn money through Meesho resale / affiliate links from other fashion platforms.",
+    "status": "In Progress",
+    "amount_invested": 0,
+    "amount_earned": 0,
+    "tools_used": [
+      "Google Flow",
+      "Meesho",
+      "Affiliate Platforms (EarnKaro, Myntra, Amazon)",
+      "Flux / Imagen",
+      "DaVinci Resolve"
+    ],
+    "protential_revenue": "$500 - $2,000 / month (₹40,000 - ₹1,60,000 / month)",
+    "potential_revenue": "$500 - $2,000 / month (₹40,000 - ₹1,60,000 / month)",
+    "notes": "Character persona 'Kruthika' established with reference images and character sheet in kruthika_samples/. Next step is generating motion video clips and setting up bio links for Meesho resale.",
+    "tags": [
+      "ai-influencer",
+      "fashion",
+      "meesho",
+      "affiliate-marketing",
+      "instagram-reels",
+      "youtube-shorts"
+    ],
+    "path": "AI_infulencer"
+  },
+  {
+    "id": "idea-002",
+    "title": "Fiverr Gigs & AI UGC Video Ads",
+    "description": "Offer freelance services on Fiverr. Currently running 2 gigs, adding a 3rd high-converting gig producing AI UGC video ads for TikTok, Instagram Reels, and dropshipping stores.",
+    "status": "In Progress",
+    "amount_invested": 0,
+    "amount_earned": 0,
+    "tools_used": [
+      "Fiverr",
+      "HeyGen / Hedra / LivePortrait",
+      "ElevenLabs",
+      "CapCut",
+      "DaVinci Resolve"
+    ],
+    "protential_revenue": "$1,000 - $3,500 / month ($30 - $150 per order)",
+    "potential_revenue": "$1,000 - $3,500 / month ($30 - $150 per order)",
+    "notes": "2 gigs already live on Fiverr. Creating Gig 3 for AI UGC ads. Action item: Write gig description, set up 3 package tiers, and produce 2 portfolio sample video ads.",
+    "tags": [
+      "freelancing",
+      "fiverr",
+      "ugc-ads",
+      "dropshipping",
+      "tiktok-ads",
+      "video-editing"
+    ],
+    "path": "fiverr"
+  }
+]

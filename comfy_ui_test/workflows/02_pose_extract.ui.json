@@ -1,0 +1,80 @@
+{
+  "last_node_id": 4,
+  "last_link_id": 3,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "VHS_LoadVideo",
+      "pos": [40, 40],
+      "size": [340, 320],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {"name": "IMAGE", "type": "IMAGE", "links": [1], "slot_index": 0},
+        {"name": "frame_count", "type": "INT", "links": null, "slot_index": 1},
+        {"name": "audio", "type": "AUDIO", "links": null, "slot_index": 2},
+        {"name": "video_info", "type": "VHS_VIDEOINFO", "links": null, "slot_index": 3}
+      ],
+      "properties": {"Node name for S&R": "VHS_LoadVideo"},
+      "widgets_values": ["reference_dance.mp4", 16, "Disabled", 512, 512, 0, 0, 1]
+    },
+    {
+      "id": 2,
+      "type": "DWPreprocessor",
+      "pos": [420, 40],
+      "size": [300, 180],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {"name": "image", "type": "IMAGE", "link": 1}
+      ],
+      "outputs": [
+        {"name": "IMAGE", "type": "IMAGE", "links": [2, 3], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "DWPreprocessor"},
+      "widgets_values": ["enable", "enable", "enable", 1024, "yolox_l.onnx", "dw-ll_ucoco_384.onnx", "disable"]
+    },
+    {
+      "id": 3,
+      "type": "SaveImage",
+      "pos": [760, 40],
+      "size": [380, 400],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {"name": "images", "type": "IMAGE", "link": 2}
+      ],
+      "outputs": [],
+      "properties": {"Node name for S&R": "SaveImage"},
+      "widgets_values": ["pose/skeleton"]
+    },
+    {
+      "id": 4,
+      "type": "VHS_VideoCombine",
+      "pos": [760, 480],
+      "size": [380, 300],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {"name": "images", "type": "IMAGE", "link": 3}
+      ],
+      "outputs": [],
+      "properties": {"Node name for S&R": "VHS_VideoCombine"},
+      "widgets_values": [16, 0, "pose/skeleton_preview", "video/h264-mp4", false, true]
+    }
+  ],
+  "links": [
+    [1, 1, 0, 2, 0, "IMAGE"],
+    [2, 2, 0, 3, 0, "IMAGE"],
+    [3, 2, 0, 4, 0, "IMAGE"]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}

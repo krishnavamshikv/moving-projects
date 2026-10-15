@@ -1,0 +1,117 @@
+import json
+
+data = {
+  "personal_info": {
+    "name": "Krishna Vamshi Valupadasu",
+    "phone": "+91 9603007662",
+    "email": "krishnavamshi.me@gmail.com",
+    "location": "Warangal, Telangana",
+    "links": {
+      "Linkedin": {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/krishnavamshikv"
+      },
+      "GitHub": "https://github.com/krishnavamshi"
+    }
+  },
+  "professional_summary": "Cloud Infrastructure & DevOps Engineer with 4+ years of experience designing and implementing highly scalable, secure, and multi-tenant cloud networking solutions across AWS, Azure, and GCP. Proven expertise in automating complex infrastructure using Terraform and CloudFormation, and deploying RESTful services on Kubernetes and Docker. Adept at leading technical projects independently, troubleshooting complex connectivity issues with tools like Wireshark, and collaborating across agile teams to deliver reliable, cloud-native architectures.",
+  "key_skills": [
+    "Cloud Networking & Security",
+    "Multi-Tenant Cloud Architecture",
+    "Infrastructure as Code (IaC)",
+    "Microservices & Containerization",
+    "CI/CD Pipeline Automation",
+    "DevSecOps & Supply Chain Security",
+    "System Design & Troubleshooting"
+  ],
+  "technical_skills": {
+    "cloud_infrastructure_&_networking": [
+      "AWS", "Azure", "GCP", "VPC", "Private Link", "NAT Gateway", "VPN", "API Gateway", "Route 53", "L4/L7 Load Balancing", "Firewalls", "DNS", "Subnets & Peering"
+    ],
+    "containerization_&_iac": [
+      "Docker", "Kubernetes", "Terraform", "CloudFormation"
+    ],
+    "ci_cd_&_version_control": [
+      "Git", "GitHub Actions", "GitLab CI/CD", "Jenkins", "Jira"
+    ],
+    "scripting_&_languages": [
+      "Python", "Go", "Bash", "JavaScript", "SQL"
+    ],
+    "security_&_observability": [
+      "Trivy", "Prometheus", "Grafana", "Wireshark", "IAM Hardening"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Cloud Infrastructure & DevOps Engineer",
+      "company": "Infosys | Client: Goldman Sachs",
+      "date": "Oct. 2022 - Present",
+      "location": "Remote",
+      "groups": [
+        {
+          "subheading": "Cloud Networking & Architecture",
+          "bullets": [
+            "Architected and implemented secure, scalable multi-tenant cloud networking solutions across AWS, configuring VPCs, Subnets, API Gateways, and Route 53 to support high-availability applications.",
+            "Led the design of advanced network topologies incorporating Private Link, NAT Gateways, and L4/L7 Load Balancing, ensuring robust isolation and optimized traffic routing for large-scale distributed systems.",
+            "Resolved complex connectivity and latency issues using Wireshark and deep network analysis, maintaining reliable communication between microservices."
+          ]
+        },
+        {
+          "subheading": "Infrastructure Automation & Containerization",
+          "bullets": [
+            "Built and managed core cloud services using Infrastructure as Code tools (Terraform), provisioning scalable infrastructure prototypes and reducing manual production interventions by 50%.",
+            "Developed, containerized, and deployed scalable RESTful services onto Kubernetes and Docker platforms, adhering to cloud-native best practices for resilience and supportability.",
+            "Maintained advanced CI/CD pipelines using GitLab CI/CD and Jenkins to streamline the delivery of secure, large-scale infrastructure projects independently."
+          ]
+        },
+        {
+          "subheading": "Leadership & Collaboration",
+          "bullets": [
+            "Mentored junior engineers on cloud development best practices, infrastructure automation, and system design within an Agile framework.",
+            "Collaborated with cross-functional security, platform, and application teams globally to execute seamless migrations and enforce DevSecOps principles."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Video Editor",
+      "company": "Fiverr",
+      "date": "Aug. 2019 - Sep. 2022",
+      "location": "Remote",
+      "groups": [
+        {
+          "subheading": "Client Management & Content Delivery",
+          "bullets": [
+            "Managed end-to-end post-production for 100+ global clients, consistently delivering high-quality content under tight deadlines while collaborating with remote teams."
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Cloud-Native DevSecOps Pipeline",
+      "bullets": [
+        "Automated a zero-downtime CI/CD pipeline for RESTful microservices using GitHub Actions and AWS ECS.",
+        "Integrated Trivy scanning to secure containerized Kubernetes and Docker workloads prior to deployment."
+      ]
+    },
+    {
+      "title": "Infrastructure as Code: Multi-Tier Production Environment",
+      "bullets": [
+        "Architected a scalable multi-tenant architecture using Terraform to manage AWS VPCs, Subnets, Firewalls, and Peering.",
+        "Developed custom IaC modules for robust L4/L7 Load Balancing, reducing environment provisioning time by 80%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Balaji Institute of Technology and Science",
+      "degree": "B.Tech in Mechanical Engineering",
+      "date": "Aug. 2016 - Jun. 2019"
+    }
+  ]
+}
+
+with open("tailored_resume.json", "w") as f:
+    json.dump(data, f, indent=2)

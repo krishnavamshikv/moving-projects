@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# Vim Mastery Game - Standalone Launcher
+
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+VIMRC="${SCRIPT_DIR}/runtime/vimgamerc"
+
+# Verify vim binary
+if ! command -v vim &> /dev/null; then
+    echo "Error: vim is not installed or not in PATH."
+    exit 1
+fi
+
+show_help() {
+    echo "Vim Mastery Game - Launcher"
+    echo "Usage: ./play [OPTIONS]"
+    echo ""
+    echo "Options:"
+    echo "  (no args)             Open the Campaign Dashboard"
+    echo "  <phase> [diff]        Launch specific level (e.g. ./play 4 hard)"
+    echo "  --reset               Reset campaign progress"
+    echo "  --help                Show this help message"
+    echo ""
+}
+
+case "$1" in
+    --help|-h)
+        show_help
+        exit 0
+        ;;
+    --reset)
+        SAVE_FILE="${HOME}/.vimgame_save.json"
+        rm -f "${SAVE_FILE}" "${SCRIPT_DIR}/.vimgame_save.json"
+        echo "Campaign progress reset successfully."
+        exit 0
+        ;;
+    [1-9]|1[0-2])
+        PHASE="$1"
+        DIFF="${2:-beginner}"
+        exec vim -Nu "${VIMRC}" -c "call vimgame#engine#start_level(${PHASE}, '${DIFF}')"
+        ;;
+    *)
+        exec vim -Nu "${VIMRC}"
+        ;;
+esac

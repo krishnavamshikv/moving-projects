@@ -1,0 +1,26 @@
+" runtime/vimgamerc
+" Clean, isolated Vim configuration for Vim Mastery Game
+
+set nocompatible
+syntax on
+filetype plugin indent on
+
+" Game directory path
+let s:root = expand('<sfile>:p:h:h')
+let &runtimepath = s:root . ',' . s:root . '/runtime,' . $VIMRUNTIME
+
+" Essential UI & Settings
+set laststatus=2
+set showcmd
+set ruler
+set hidden
+set splitright
+set splitbelow
+set fillchars=vert:│
+set encoding=utf-8
+
+" Leader key
+let mapleader = " "
+
+" Launch game campaign menu after startup
+autocmd VimEnter * ++once call vimgame#dashboard#open()

@@ -1,0 +1,88 @@
+{
+  "personal_info": {
+    "name": "Krishna Vamshi Valupadasu",
+    "phone": "+91 9603007662",
+    "email": "krishnavamshi.me@gmail.com",
+    "location": "Warangal, Telangana",
+    "links": {
+      "Linkedin": {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/krishnavamshikv"
+      }
+    }
+  },
+  "professional_summary": "DevOps Engineer with 4+ years of experience in AWS, Terraform, Kubernetes, Docker, CI/CD, and DevSecOps. AWS Certified Cloud Practitioner skilled in automating infrastructure, managing cloud environments, and building reliable deployment pipelines. Focused on improving scalability, security, and operational efficiency through automation.",
+  "technical_skills": {
+    "cloud_and_os": [
+      "AWS (VPC, EC2, S3, RDS, IAM, Lambda)",
+      "Linux",
+      "Windows"
+    ],
+    "devops_and_iac": [
+      "Docker",
+      "GitLab CI/CD",
+      "GitHub Actions",
+      "Terraform",
+      "Cloud Formation",
+      "Kubernetes",
+      "Jenkins",
+      "Ansible"
+    ],
+    "languages": ["Go (Golang)", "Python", "Bash", "JavaScript", "SQL"],
+    "security": [
+      "DevSecOps",
+      "Trivy",
+      "Vulnerability Scanning",
+      "IAM Hardening"
+    ],
+    "observability": ["Prometheus", "Grafana"],
+    "certifications": ["AWS Certified Cloud Practitioner"]
+  },
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "Infosys | Client: Goldman Sachs",
+      "date": "Oct. 2022 - Present",
+      "bullets": [
+        "Built and maintained GitLab CI/CD pipelines to deploy applications across dev, UAT, and production environments, enabling faster, more reliable, and repeatable releases",
+        "Developed automation features within the Internal Developer Platform (IDP), reducing manual production interventions by 50% and enhancing audit compliance",
+        "Provisioned and managed staging, UAT, and production environments using Terraform, ensuring consistent and repeatable infrastructure",
+        "Collaborated with multiple engineering teams across the organization to support and execute migrations to UAT and production environments, ensuring smooth and stable releases"
+      ]
+    },
+    {
+      "title": "Video Editor",
+      "company": "Fiverr",
+      "date": "Aug. 2019 - Sep. 2022",
+      "bullets": [
+        "Managed end-to-end post-production for 100+ global clients, consistently delivering high-retention content under tight deadlines while maintaining a 100% repeat-business rating."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Cloud-Native DevSecOps Pipeline",
+      "tech_stack": "AWS, Docker, GitHub Actions",
+      "bullets": [
+        "Automated a zero-downtime CI/CD pipeline for a Node.js microservice using GitHub Actions and AWS ECS Fargate, reducing manual deployment overhead by 100%.",
+        "Hardened the software supply chain by integrating Trivy vulnerability scanning, identifying and mitigating critical security flaws (e.g., CVE-2026-22184) before production deployment.",
+        "Optimized container strategy with multi-stage Docker builds and non-root execution, improving security posture and reducing image storage footprint by 60%."
+      ]
+    },
+    {
+      "title": "Infrastructure as Code: Multi-Tier Production Environment",
+      "bullets": [
+        "Architected a highly available 3-tier AWS infrastructure (Web, App, Database) across multiple Availability Zones using Terraform.",
+        "Engineered reusable custom modules for VPC, Compute, and RDS, reducing environment provisioning time by 80%.",
+        "Implemented Environment Isolation (Dev/Prod) using a file-based directory structure and S3 Remote State with native S3 locking."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Balaji Institute of Technology and Science",
+      "degree": "Bachelor of Technology in Mechanical Engineering",
+      "date": "Aug. 2016 - Jun. 2019"
+    }
+  ]
+}

@@ -1,0 +1,2015 @@
+{
+  "totalOriginalDays": 90,
+  "totalAcceleratedDays": 30,
+  "modules": [
+    {
+      "name": "Linux Fundamentals",
+      "days": [
+        1,
+        13
+      ],
+      "icon": "Terminal",
+      "color": "from-blue-500 to-indigo-600"
+    },
+    {
+      "name": "Networking",
+      "days": [
+        14,
+        15
+      ],
+      "icon": "Network",
+      "color": "from-cyan-500 to-blue-500"
+    },
+    {
+      "name": "Shell Scripting",
+      "days": [
+        16,
+        21
+      ],
+      "icon": "Code2",
+      "color": "from-emerald-500 to-teal-600"
+    },
+    {
+      "name": "Git & GitHub",
+      "days": [
+        22,
+        28
+      ],
+      "icon": "GitBranch",
+      "color": "from-orange-500 to-amber-600"
+    },
+    {
+      "name": "Docker",
+      "days": [
+        29,
+        37
+      ],
+      "icon": "Box",
+      "color": "from-blue-600 to-cyan-600"
+    },
+    {
+      "name": "CI/CD & GitHub Actions",
+      "days": [
+        38,
+        49
+      ],
+      "icon": "Workflow",
+      "color": "from-purple-500 to-indigo-600"
+    },
+    {
+      "name": "Kubernetes",
+      "days": [
+        50,
+        60
+      ],
+      "icon": "Layers",
+      "color": "from-blue-500 to-sky-500"
+    },
+    {
+      "name": "Terraform",
+      "days": [
+        61,
+        67
+      ],
+      "icon": "Cloud",
+      "color": "from-violet-600 to-purple-700"
+    },
+    {
+      "name": "Ansible",
+      "days": [
+        68,
+        72
+      ],
+      "icon": "Cpu",
+      "color": "from-red-500 to-rose-600"
+    },
+    {
+      "name": "Observability",
+      "days": [
+        73,
+        77
+      ],
+      "icon": "Activity",
+      "color": "from-amber-500 to-orange-500"
+    },
+    {
+      "name": "Helm & EKS & GitOps",
+      "days": [
+        78,
+        86
+      ],
+      "icon": "Anchor",
+      "color": "from-teal-500 to-emerald-600"
+    },
+    {
+      "name": "Agentic AI for DevOps",
+      "days": [
+        87,
+        90
+      ],
+      "icon": "Bot",
+      "color": "from-fuchsia-500 to-pink-600"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "dayFormatted": "Day 01",
+      "title": "Introduction to DevOps and Cloud",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 1,
+      "pathRelative": "2026/day-01/README.md",
+      "expectedFilename": "learning-plan.md"
+    },
+    {
+      "id": 2,
+      "dayFormatted": "Day 02",
+      "title": "Linux Architecture, Processes, and systemd",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 1,
+      "pathRelative": "2026/day-02/README.md",
+      "expectedFilename": "linux-architecture-notes.md"
+    },
+    {
+      "id": 3,
+      "dayFormatted": "Day 03",
+      "title": "Linux Commands Practice",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 1,
+      "pathRelative": "2026/day-03/README.md",
+      "expectedFilename": "linux-commands-cheatsheet.md"
+    },
+    {
+      "id": 4,
+      "dayFormatted": "Day 04",
+      "title": "Linux Practice: Processes and Services",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 2,
+      "pathRelative": "2026/day-04/README.md",
+      "expectedFilename": "linux-practice.md"
+    },
+    {
+      "id": 5,
+      "dayFormatted": "Day 05",
+      "title": "Linux Troubleshooting Drill: CPU, Memory, and Logs",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 2,
+      "pathRelative": "2026/day-05/README.md",
+      "expectedFilename": "linux-troubleshooting-runbook.md"
+    },
+    {
+      "id": 6,
+      "dayFormatted": "Day 06",
+      "title": "Linux Fundamentals: Read and Write Text Files",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 2,
+      "pathRelative": "2026/day-06/README.md",
+      "expectedFilename": "file-io-practice.md"
+    },
+    {
+      "id": 7,
+      "dayFormatted": "Day 07",
+      "title": "Linux File System Hierarchy and Scenario-Based Practice",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 3,
+      "pathRelative": "2026/day-07/README.md",
+      "expectedFilename": "day-07-linux-fs-and-scenarios.md"
+    },
+    {
+      "id": 8,
+      "dayFormatted": "Day 08",
+      "title": "Cloud Server Setup: Docker, Nginx and Web Deployment",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 3,
+      "pathRelative": "2026/day-08/README.md",
+      "expectedFilename": "day-08-cloud-deployment.md"
+    },
+    {
+      "id": 9,
+      "dayFormatted": "Day 09",
+      "title": "Linux User and Group Management Challenge",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 3,
+      "pathRelative": "2026/day-09/README.md",
+      "expectedFilename": "day-09-user-management.md"
+    },
+    {
+      "id": 10,
+      "dayFormatted": "Day 10",
+      "title": "File Permissions and File Operations Challenge",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 4,
+      "pathRelative": "2026/day-10/README.md",
+      "expectedFilename": "day-10-file-permissions.md"
+    },
+    {
+      "id": 11,
+      "dayFormatted": "Day 11",
+      "title": "File Ownership Challenge (chown and chgrp)",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 4,
+      "pathRelative": "2026/day-11/README.md",
+      "expectedFilename": "day-11-file-ownership.md"
+    },
+    {
+      "id": 12,
+      "dayFormatted": "Day 12",
+      "title": "Breather and Revision (Days 01-11)",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 4,
+      "pathRelative": "2026/day-12/README.md",
+      "expectedFilename": "day-12-revision.md"
+    },
+    {
+      "id": 13,
+      "dayFormatted": "Day 13",
+      "title": "Linux Volume Management (LVM)",
+      "module": "Linux Fundamentals",
+      "acceleratedDay": 5,
+      "pathRelative": "2026/day-13/README.md",
+      "expectedFilename": "day-13-lvm.md"
+    },
+    {
+      "id": 14,
+      "dayFormatted": "Day 14",
+      "title": "Networking Fundamentals and Hands-on Checks",
+      "module": "Networking",
+      "acceleratedDay": 5,
+      "pathRelative": "2026/day-14/README.md",
+      "expectedFilename": "day-14-networking.md"
+    },
+    {
+      "id": 15,
+      "dayFormatted": "Day 15",
+      "title": "Networking Concepts: DNS, IP, Subnets and Ports",
+      "module": "Networking",
+      "acceleratedDay": 5,
+      "pathRelative": "2026/day-15/README.md",
+      "expectedFilename": "day-15-networking-concepts.md"
+    },
+    {
+      "id": 16,
+      "dayFormatted": "Day 16",
+      "title": "Shell Scripting Basics",
+      "module": "Shell Scripting",
+      "acceleratedDay": 6,
+      "pathRelative": "2026/day-16/README.md",
+      "expectedFilename": "day-16-shell-scripting.md"
+    },
+    {
+      "id": 17,
+      "dayFormatted": "Day 17",
+      "title": "Shell Scripting: Loops, Arguments and Error Handling",
+      "module": "Shell Scripting",
+      "acceleratedDay": 6,
+      "pathRelative": "2026/day-17/README.md",
+      "expectedFilename": "day-17-scripting.md"
+    },
+    {
+      "id": 18,
+      "dayFormatted": "Day 18",
+      "title": "Shell Scripting: Functions and Intermediate Concepts",
+      "module": "Shell Scripting",
+      "acceleratedDay": 6,
+      "pathRelative": "2026/day-18/README.md",
+      "expectedFilename": "day-18-scripting.md"
+    },
+    {
+      "id": 19,
+      "dayFormatted": "Day 19",
+      "title": "Shell Scripting Project: Log Rotation, Backup and Crontab",
+      "module": "Shell Scripting",
+      "acceleratedDay": 7,
+      "pathRelative": "2026/day-19/README.md",
+      "expectedFilename": "day-19-project.md"
+    },
+    {
+      "id": 20,
+      "dayFormatted": "Day 20",
+      "title": "Bash Scripting Challenge: Log Analyzer and Report Generator",
+      "module": "Shell Scripting",
+      "acceleratedDay": 7,
+      "pathRelative": "2026/day-20/README.md",
+      "expectedFilename": "day-20-solution.md"
+    },
+    {
+      "id": 21,
+      "dayFormatted": "Day 21",
+      "title": "Shell Scripting Cheat Sheet: Build Your Own Reference Guide",
+      "module": "Shell Scripting",
+      "acceleratedDay": 7,
+      "pathRelative": "2026/day-21/README.md",
+      "expectedFilename": "shell_scripting_cheatsheet.md"
+    },
+    {
+      "id": 22,
+      "dayFormatted": "Day 22",
+      "title": "Introduction to Git: Your First Repository",
+      "module": "Git & GitHub",
+      "acceleratedDay": 8,
+      "pathRelative": "2026/day-22/README.md",
+      "expectedFilename": "git-commands.md"
+    },
+    {
+      "id": 23,
+      "dayFormatted": "Day 23",
+      "title": "Git Branching and Working with GitHub",
+      "module": "Git & GitHub",
+      "acceleratedDay": 8,
+      "pathRelative": "2026/day-23/README.md",
+      "expectedFilename": "day-23-notes.md"
+    },
+    {
+      "id": 24,
+      "dayFormatted": "Day 24",
+      "title": "Advanced Git: Merge, Rebase, Stash and Cherry Pick",
+      "module": "Git & GitHub",
+      "acceleratedDay": 8,
+      "pathRelative": "2026/day-24/README.md",
+      "expectedFilename": "day-24-notes.md"
+    },
+    {
+      "id": 25,
+      "dayFormatted": "Day 25",
+      "title": "Git Reset vs Revert and Branching Strategies",
+      "module": "Git & GitHub",
+      "acceleratedDay": 9,
+      "pathRelative": "2026/day-25/README.md",
+      "expectedFilename": "day-25-notes.md"
+    },
+    {
+      "id": 26,
+      "dayFormatted": "Day 26",
+      "title": "GitHub CLI: Manage GitHub from Your Terminal",
+      "module": "Git & GitHub",
+      "acceleratedDay": 9,
+      "pathRelative": "2026/day-26/README.md",
+      "expectedFilename": "day-26-notes.md"
+    },
+    {
+      "id": 27,
+      "dayFormatted": "Day 27",
+      "title": "GitHub Profile Makeover: Build Your Developer Identity",
+      "module": "Git & GitHub",
+      "acceleratedDay": 9,
+      "pathRelative": "2026/day-27/README.md",
+      "expectedFilename": "day-27-notes.md"
+    },
+    {
+      "id": 28,
+      "dayFormatted": "Day 28",
+      "title": "Revision Day: Everything from Day 1 to Day 27",
+      "module": "Git & GitHub",
+      "acceleratedDay": 10,
+      "pathRelative": "2026/day-28/README.md",
+      "expectedFilename": "day-28-revision-summary.md"
+    },
+    {
+      "id": 29,
+      "dayFormatted": "Day 29",
+      "title": "Introduction to Docker",
+      "module": "Docker",
+      "acceleratedDay": 10,
+      "pathRelative": "2026/day-29/README.md",
+      "expectedFilename": "day-29-docker-basics.md"
+    },
+    {
+      "id": 30,
+      "dayFormatted": "Day 30",
+      "title": "Docker Images and Container Lifecycle",
+      "module": "Docker",
+      "acceleratedDay": 10,
+      "pathRelative": "2026/day-30/README.md",
+      "expectedFilename": "day-30-images.md"
+    },
+    {
+      "id": 31,
+      "dayFormatted": "Day 31",
+      "title": "Dockerfile: Build Your Own Images",
+      "module": "Docker",
+      "acceleratedDay": 11,
+      "pathRelative": "2026/day-31/README.md",
+      "expectedFilename": "day-31-dockerfile.md"
+    },
+    {
+      "id": 32,
+      "dayFormatted": "Day 32",
+      "title": "Docker Volumes and Networking",
+      "module": "Docker",
+      "acceleratedDay": 11,
+      "pathRelative": "2026/day-32/README.md",
+      "expectedFilename": "day-32-volumes-networking.md"
+    },
+    {
+      "id": 33,
+      "dayFormatted": "Day 33",
+      "title": "Docker Compose: Multi-Container Basics",
+      "module": "Docker",
+      "acceleratedDay": 11,
+      "pathRelative": "2026/day-33/README.md",
+      "expectedFilename": "day-33-compose.md"
+    },
+    {
+      "id": 34,
+      "dayFormatted": "Day 34",
+      "title": "Docker Compose: Real-World Multi-Container Apps",
+      "module": "Docker",
+      "acceleratedDay": 12,
+      "pathRelative": "2026/day-34/README.md",
+      "expectedFilename": "day-34-compose-advanced.md"
+    },
+    {
+      "id": 35,
+      "dayFormatted": "Day 35",
+      "title": "Multi-Stage Builds and Docker Hub",
+      "module": "Docker",
+      "acceleratedDay": 12,
+      "pathRelative": "2026/day-35/README.md",
+      "expectedFilename": "day-35-multistage-hub.md"
+    },
+    {
+      "id": 36,
+      "dayFormatted": "Day 36",
+      "title": "Docker Project: Dockerize a Full Application",
+      "module": "Docker",
+      "acceleratedDay": 12,
+      "pathRelative": "2026/day-36/README.md",
+      "expectedFilename": "day-36-docker-project.md"
+    },
+    {
+      "id": 37,
+      "dayFormatted": "Day 37",
+      "title": "Docker Revision and Cheat Sheet",
+      "module": "Docker",
+      "acceleratedDay": 13,
+      "pathRelative": "2026/day-37/README.md",
+      "expectedFilename": "docker-cheatsheet.md"
+    },
+    {
+      "id": 38,
+      "dayFormatted": "Day 38",
+      "title": "YAML Basics",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 13,
+      "pathRelative": "2026/day-38/README.md",
+      "expectedFilename": "day-38-yaml.md"
+    },
+    {
+      "id": 39,
+      "dayFormatted": "Day 39",
+      "title": "What is CI/CD?",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 13,
+      "pathRelative": "2026/day-39/README.md",
+      "expectedFilename": "day-39-cicd-concepts.md"
+    },
+    {
+      "id": 40,
+      "dayFormatted": "Day 40",
+      "title": "Your First GitHub Actions Workflow",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 14,
+      "pathRelative": "2026/day-40/README.md",
+      "expectedFilename": "day-40-first-workflow.md"
+    },
+    {
+      "id": 41,
+      "dayFormatted": "Day 41",
+      "title": "Triggers and Matrix Builds",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 14,
+      "pathRelative": "2026/day-41/README.md",
+      "expectedFilename": "day-41-triggers.md"
+    },
+    {
+      "id": 42,
+      "dayFormatted": "Day 42",
+      "title": "Runners: GitHub-Hosted and Self-Hosted",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 14,
+      "pathRelative": "2026/day-42/README.md",
+      "expectedFilename": "day-42-runners.md"
+    },
+    {
+      "id": 43,
+      "dayFormatted": "Day 43",
+      "title": "Jobs, Steps, Env Vars and Conditionals",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 15,
+      "pathRelative": "2026/day-43/README.md",
+      "expectedFilename": "day-43-jobs-steps.md"
+    },
+    {
+      "id": 44,
+      "dayFormatted": "Day 44",
+      "title": "Secrets, Artifacts and Running Real Tests in CI",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 15,
+      "pathRelative": "2026/day-44/README.md",
+      "expectedFilename": "day-44-secrets-artifacts.md"
+    },
+    {
+      "id": 45,
+      "dayFormatted": "Day 45",
+      "title": "Docker Build and Push in GitHub Actions",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 15,
+      "pathRelative": "2026/day-45/README.md",
+      "expectedFilename": "day-45-docker-cicd.md"
+    },
+    {
+      "id": 46,
+      "dayFormatted": "Day 46",
+      "title": "Reusable Workflows and Composite Actions",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 16,
+      "pathRelative": "2026/day-46/README.md",
+      "expectedFilename": "day-46-reusable-workflows.md"
+    },
+    {
+      "id": 47,
+      "dayFormatted": "Day 47",
+      "title": "Advanced Triggers: PR Events, Cron Schedules and Event-Driven Pipelines",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 16,
+      "pathRelative": "2026/day-47/README.md",
+      "expectedFilename": "day-47-advanced-triggers.md"
+    },
+    {
+      "id": 48,
+      "dayFormatted": "Day 48",
+      "title": "GitHub Actions Project: End-to-End CI/CD Pipeline",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 16,
+      "pathRelative": "2026/day-48/README.md",
+      "expectedFilename": "day-48-actions-project.md"
+    },
+    {
+      "id": 49,
+      "dayFormatted": "Day 49",
+      "title": "DevSecOps: Add Security to Your CI/CD Pipeline",
+      "module": "CI/CD & GitHub Actions",
+      "acceleratedDay": 17,
+      "pathRelative": "2026/day-49/README.md",
+      "expectedFilename": "day-49-devsecops.md"
+    },
+    {
+      "id": 50,
+      "dayFormatted": "Day 50",
+      "title": "Kubernetes Architecture and Cluster Setup",
+      "module": "Kubernetes",
+      "acceleratedDay": 17,
+      "pathRelative": "2026/day-50/README.md",
+      "expectedFilename": "day-50-k8s-setup.md"
+    },
+    {
+      "id": 51,
+      "dayFormatted": "Day 51",
+      "title": "Kubernetes Manifests and Your First Pods",
+      "module": "Kubernetes",
+      "acceleratedDay": 17,
+      "pathRelative": "2026/day-51/README.md",
+      "expectedFilename": "day-51-pods.md"
+    },
+    {
+      "id": 52,
+      "dayFormatted": "Day 52",
+      "title": "Kubernetes Namespaces and Deployments",
+      "module": "Kubernetes",
+      "acceleratedDay": 18,
+      "pathRelative": "2026/day-52/README.md",
+      "expectedFilename": "day-52-namespaces-deployments.md"
+    },
+    {
+      "id": 53,
+      "dayFormatted": "Day 53",
+      "title": "Kubernetes Services",
+      "module": "Kubernetes",
+      "acceleratedDay": 18,
+      "pathRelative": "2026/day-53/README.md",
+      "expectedFilename": "day-53-services.md"
+    },
+    {
+      "id": 54,
+      "dayFormatted": "Day 54",
+      "title": "Kubernetes ConfigMaps and Secrets",
+      "module": "Kubernetes",
+      "acceleratedDay": 18,
+      "pathRelative": "2026/day-54/README.md",
+      "expectedFilename": "day-54-configmaps-secrets.md"
+    },
+    {
+      "id": 55,
+      "dayFormatted": "Day 55",
+      "title": "Persistent Volumes (PV) and Persistent Volume Claims (PVC)",
+      "module": "Kubernetes",
+      "acceleratedDay": 19,
+      "pathRelative": "2026/day-55/README.md",
+      "expectedFilename": "day-55-persistent-volumes.md"
+    },
+    {
+      "id": 56,
+      "dayFormatted": "Day 56",
+      "title": "Kubernetes StatefulSets",
+      "module": "Kubernetes",
+      "acceleratedDay": 19,
+      "pathRelative": "2026/day-56/README.md",
+      "expectedFilename": "day-56-statefulsets.md"
+    },
+    {
+      "id": 57,
+      "dayFormatted": "Day 57",
+      "title": "Resource Requests, Limits, and Probes",
+      "module": "Kubernetes",
+      "acceleratedDay": 19,
+      "pathRelative": "2026/day-57/README.md",
+      "expectedFilename": "day-57-resources-probes.md"
+    },
+    {
+      "id": 58,
+      "dayFormatted": "Day 58",
+      "title": "Metrics Server and Horizontal Pod Autoscaler (HPA)",
+      "module": "Kubernetes",
+      "acceleratedDay": 20,
+      "pathRelative": "2026/day-58/README.md",
+      "expectedFilename": "day-58-metrics-hpa.md"
+    },
+    {
+      "id": 59,
+      "dayFormatted": "Day 59",
+      "title": "Helm -- Kubernetes Package Manager",
+      "module": "Kubernetes",
+      "acceleratedDay": 20,
+      "pathRelative": "2026/day-59/README.md",
+      "expectedFilename": "day-59-helm.md"
+    },
+    {
+      "id": 60,
+      "dayFormatted": "Day 60",
+      "title": "Capstone: Deploy WordPress + MySQL on Kubernetes",
+      "module": "Kubernetes",
+      "acceleratedDay": 20,
+      "pathRelative": "2026/day-60/README.md",
+      "expectedFilename": "day-60-capstone.md"
+    },
+    {
+      "id": 61,
+      "dayFormatted": "Day 61",
+      "title": "Introduction to Terraform and Your First AWS Infrastructure",
+      "module": "Terraform",
+      "acceleratedDay": 21,
+      "pathRelative": "2026/day-61/README.md",
+      "expectedFilename": "day-61-terraform-intro.md"
+    },
+    {
+      "id": 62,
+      "dayFormatted": "Day 62",
+      "title": "Providers, Resources and Dependencies",
+      "module": "Terraform",
+      "acceleratedDay": 21,
+      "pathRelative": "2026/day-62/README.md",
+      "expectedFilename": "day-62-providers-resources.md"
+    },
+    {
+      "id": 63,
+      "dayFormatted": "Day 63",
+      "title": "Variables, Outputs, Data Sources and Expressions",
+      "module": "Terraform",
+      "acceleratedDay": 21,
+      "pathRelative": "2026/day-63/README.md",
+      "expectedFilename": "day-63-variables-outputs.md"
+    },
+    {
+      "id": 64,
+      "dayFormatted": "Day 64",
+      "title": "Terraform State Management and Remote Backends",
+      "module": "Terraform",
+      "acceleratedDay": 22,
+      "pathRelative": "2026/day-64/README.md",
+      "expectedFilename": "day-64-state-management.md"
+    },
+    {
+      "id": 65,
+      "dayFormatted": "Day 65",
+      "title": "Terraform Modules: Build Reusable Infrastructure",
+      "module": "Terraform",
+      "acceleratedDay": 22,
+      "pathRelative": "2026/day-65/README.md",
+      "expectedFilename": "day-65-modules.md"
+    },
+    {
+      "id": 66,
+      "dayFormatted": "Day 66",
+      "title": "Provision an EKS Cluster with Terraform Modules",
+      "module": "Terraform",
+      "acceleratedDay": 22,
+      "pathRelative": "2026/day-66/README.md",
+      "expectedFilename": "day-66-eks-terraform.md"
+    },
+    {
+      "id": 67,
+      "dayFormatted": "Day 67",
+      "title": "TerraWeek Capstone: Multi-Environment Infrastructure with Workspaces and Modules",
+      "module": "Terraform",
+      "acceleratedDay": 23,
+      "pathRelative": "2026/day-67/README.md",
+      "expectedFilename": "day-67-terraweek-capstone.md"
+    },
+    {
+      "id": 68,
+      "dayFormatted": "Day 68",
+      "title": "Introduction to Ansible and Inventory Setup",
+      "module": "Ansible",
+      "acceleratedDay": 23,
+      "pathRelative": "2026/day-68/README.md",
+      "expectedFilename": "day-68-ansible-intro.md"
+    },
+    {
+      "id": 69,
+      "dayFormatted": "Day 69",
+      "title": "Ansible Playbooks and Modules",
+      "module": "Ansible",
+      "acceleratedDay": 23,
+      "pathRelative": "2026/day-69/README.md",
+      "expectedFilename": "day-69-playbooks.md"
+    },
+    {
+      "id": 70,
+      "dayFormatted": "Day 70",
+      "title": "Variables, Facts, Conditionals and Loops",
+      "module": "Ansible",
+      "acceleratedDay": 24,
+      "pathRelative": "2026/day-70/README.md",
+      "expectedFilename": "day-70-variables-loops.md"
+    },
+    {
+      "id": 71,
+      "dayFormatted": "Day 71",
+      "title": "Roles, Galaxy, Templates and Vault",
+      "module": "Ansible",
+      "acceleratedDay": 24,
+      "pathRelative": "2026/day-71/README.md",
+      "expectedFilename": "day-71-roles-templates-vault.md"
+    },
+    {
+      "id": 72,
+      "dayFormatted": "Day 72",
+      "title": "Ansible Project: Automate Docker and Nginx Deployment",
+      "module": "Ansible",
+      "acceleratedDay": 24,
+      "pathRelative": "2026/day-72/README.md",
+      "expectedFilename": "day-72-ansible-project.md"
+    },
+    {
+      "id": 73,
+      "dayFormatted": "Day 73",
+      "title": "Introduction to Observability and Prometheus",
+      "module": "Observability",
+      "acceleratedDay": 25,
+      "pathRelative": "2026/day-73/README.md",
+      "expectedFilename": "day-73-observability-prometheus.md"
+    },
+    {
+      "id": 74,
+      "dayFormatted": "Day 74",
+      "title": "Node Exporter, cAdvisor, and Grafana Dashboards",
+      "module": "Observability",
+      "acceleratedDay": 25,
+      "pathRelative": "2026/day-74/README.md",
+      "expectedFilename": "day-74-exporters-grafana.md"
+    },
+    {
+      "id": 75,
+      "dayFormatted": "Day 75",
+      "title": "Log Management with Loki and Promtail",
+      "module": "Observability",
+      "acceleratedDay": 25,
+      "pathRelative": "2026/day-75/README.md",
+      "expectedFilename": "day-75-loki-promtail.md"
+    },
+    {
+      "id": 76,
+      "dayFormatted": "Day 76",
+      "title": "OpenTelemetry and Alerting",
+      "module": "Observability",
+      "acceleratedDay": 26,
+      "pathRelative": "2026/day-76/README.md",
+      "expectedFilename": "day-76-otel-alerting.md"
+    },
+    {
+      "id": 77,
+      "dayFormatted": "Day 77",
+      "title": "Observability Project: Full Stack with Docker Compose",
+      "module": "Observability",
+      "acceleratedDay": 26,
+      "pathRelative": "2026/day-77/README.md",
+      "expectedFilename": "day-77-observability-project.md"
+    },
+    {
+      "id": 78,
+      "dayFormatted": "Day 78",
+      "title": "Introduction to Helm and Chart Basics",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 26,
+      "pathRelative": "2026/day-78/README.md",
+      "expectedFilename": "day-78-helm-intro.md"
+    },
+    {
+      "id": 79,
+      "dayFormatted": "Day 79",
+      "title": "Creating a Custom Helm Chart for AI-BankApp",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 27,
+      "pathRelative": "2026/day-79/README.md",
+      "expectedFilename": "day-79-custom-charts.md"
+    },
+    {
+      "id": 80,
+      "dayFormatted": "Day 80",
+      "title": "Helm Project: Multi-Environment Deployment and CI/CD",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 27,
+      "pathRelative": "2026/day-80/README.md",
+      "expectedFilename": "day-80-helm-project.md"
+    },
+    {
+      "id": 81,
+      "dayFormatted": "Day 81",
+      "title": "Introduction to Amazon EKS with Terraform",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 27,
+      "pathRelative": "2026/day-81/README.md",
+      "expectedFilename": "day-81-eks-intro.md"
+    },
+    {
+      "id": 82,
+      "dayFormatted": "Day 82",
+      "title": "EKS Networking with Gateway API and Persistent Storage",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 28,
+      "pathRelative": "2026/day-82/README.md",
+      "expectedFilename": "day-82-eks-networking-storage.md"
+    },
+    {
+      "id": 83,
+      "dayFormatted": "Day 83",
+      "title": "EKS Project: Production Deployment of AI-BankApp",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 28,
+      "pathRelative": "2026/day-83/README.md",
+      "expectedFilename": "day-83-eks-project.md"
+    },
+    {
+      "id": 84,
+      "dayFormatted": "Day 84",
+      "title": "Introduction to GitOps and ArgoCD",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 28,
+      "pathRelative": "2026/day-84/README.md",
+      "expectedFilename": "day-84-gitops-argocd.md"
+    },
+    {
+      "id": 85,
+      "dayFormatted": "Day 85",
+      "title": "ArgoCD Deep Dive: Sync Strategies, Rollbacks, and Multi-App Management",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 29,
+      "pathRelative": "2026/day-85/README.md",
+      "expectedFilename": "day-85-argocd-deep-dive.md"
+    },
+    {
+      "id": 86,
+      "dayFormatted": "Day 86",
+      "title": "GitOps Project: End-to-End CI/CD Pipeline with AI-BankApp",
+      "module": "Helm & EKS & GitOps",
+      "acceleratedDay": 29,
+      "pathRelative": "2026/day-86/README.md",
+      "expectedFilename": "day-86-gitops-project.md"
+    },
+    {
+      "id": 87,
+      "dayFormatted": "Day 87",
+      "title": "Introduction to Agentic AI for DevOps",
+      "module": "Agentic AI for DevOps",
+      "acceleratedDay": 29,
+      "pathRelative": "2026/day-87/README.md",
+      "expectedFilename": "day-87-agentic-ai-intro.md"
+    },
+    {
+      "id": 88,
+      "dayFormatted": "Day 88",
+      "title": "Multi-Tool Agents, MCP, and CI/CD Analyzer",
+      "module": "Agentic AI for DevOps",
+      "acceleratedDay": 30,
+      "pathRelative": "2026/day-88/README.md",
+      "expectedFilename": "day-88-multi-tool-mcp.md"
+    },
+    {
+      "id": 89,
+      "dayFormatted": "Day 89",
+      "title": "Production AI Agents: KubeHealer and AIOps",
+      "module": "Agentic AI for DevOps",
+      "acceleratedDay": 30,
+      "pathRelative": "2026/day-89/README.md",
+      "expectedFilename": "day-89-kubehealer-aiops.md"
+    },
+    {
+      "id": 90,
+      "dayFormatted": "Day 90",
+      "title": "Grand Finale: The Complete DevOps Journey",
+      "module": "Agentic AI for DevOps",
+      "acceleratedDay": 30,
+      "pathRelative": "2026/day-90/README.md",
+      "expectedFilename": "day-90-graduation.md"
+    }
+  ],
+  "acceleratedDays": [
+    {
+      "accDay": 1,
+      "title": "Accelerated Day 1",
+      "modules": [
+        "Linux Fundamentals"
+      ],
+      "tasks": [
+        {
+          "id": 1,
+          "dayFormatted": "Day 01",
+          "title": "Introduction to DevOps and Cloud",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 1,
+          "pathRelative": "2026/day-01/README.md",
+          "expectedFilename": "learning-plan.md"
+        },
+        {
+          "id": 2,
+          "dayFormatted": "Day 02",
+          "title": "Linux Architecture, Processes, and systemd",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 1,
+          "pathRelative": "2026/day-02/README.md",
+          "expectedFilename": "linux-architecture-notes.md"
+        },
+        {
+          "id": 3,
+          "dayFormatted": "Day 03",
+          "title": "Linux Commands Practice",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 1,
+          "pathRelative": "2026/day-03/README.md",
+          "expectedFilename": "linux-commands-cheatsheet.md"
+        }
+      ]
+    },
+    {
+      "accDay": 2,
+      "title": "Accelerated Day 2",
+      "modules": [
+        "Linux Fundamentals"
+      ],
+      "tasks": [
+        {
+          "id": 4,
+          "dayFormatted": "Day 04",
+          "title": "Linux Practice: Processes and Services",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 2,
+          "pathRelative": "2026/day-04/README.md",
+          "expectedFilename": "linux-practice.md"
+        },
+        {
+          "id": 5,
+          "dayFormatted": "Day 05",
+          "title": "Linux Troubleshooting Drill: CPU, Memory, and Logs",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 2,
+          "pathRelative": "2026/day-05/README.md",
+          "expectedFilename": "linux-troubleshooting-runbook.md"
+        },
+        {
+          "id": 6,
+          "dayFormatted": "Day 06",
+          "title": "Linux Fundamentals: Read and Write Text Files",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 2,
+          "pathRelative": "2026/day-06/README.md",
+          "expectedFilename": "file-io-practice.md"
+        }
+      ]
+    },
+    {
+      "accDay": 3,
+      "title": "Accelerated Day 3",
+      "modules": [
+        "Linux Fundamentals"
+      ],
+      "tasks": [
+        {
+          "id": 7,
+          "dayFormatted": "Day 07",
+          "title": "Linux File System Hierarchy and Scenario-Based Practice",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 3,
+          "pathRelative": "2026/day-07/README.md",
+          "expectedFilename": "day-07-linux-fs-and-scenarios.md"
+        },
+        {
+          "id": 8,
+          "dayFormatted": "Day 08",
+          "title": "Cloud Server Setup: Docker, Nginx and Web Deployment",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 3,
+          "pathRelative": "2026/day-08/README.md",
+          "expectedFilename": "day-08-cloud-deployment.md"
+        },
+        {
+          "id": 9,
+          "dayFormatted": "Day 09",
+          "title": "Linux User and Group Management Challenge",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 3,
+          "pathRelative": "2026/day-09/README.md",
+          "expectedFilename": "day-09-user-management.md"
+        }
+      ]
+    },
+    {
+      "accDay": 4,
+      "title": "Accelerated Day 4",
+      "modules": [
+        "Linux Fundamentals"
+      ],
+      "tasks": [
+        {
+          "id": 10,
+          "dayFormatted": "Day 10",
+          "title": "File Permissions and File Operations Challenge",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 4,
+          "pathRelative": "2026/day-10/README.md",
+          "expectedFilename": "day-10-file-permissions.md"
+        },
+        {
+          "id": 11,
+          "dayFormatted": "Day 11",
+          "title": "File Ownership Challenge (chown and chgrp)",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 4,
+          "pathRelative": "2026/day-11/README.md",
+          "expectedFilename": "day-11-file-ownership.md"
+        },
+        {
+          "id": 12,
+          "dayFormatted": "Day 12",
+          "title": "Breather and Revision (Days 01-11)",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 4,
+          "pathRelative": "2026/day-12/README.md",
+          "expectedFilename": "day-12-revision.md"
+        }
+      ]
+    },
+    {
+      "accDay": 5,
+      "title": "Accelerated Day 5",
+      "modules": [
+        "Linux Fundamentals",
+        "Networking"
+      ],
+      "tasks": [
+        {
+          "id": 13,
+          "dayFormatted": "Day 13",
+          "title": "Linux Volume Management (LVM)",
+          "module": "Linux Fundamentals",
+          "acceleratedDay": 5,
+          "pathRelative": "2026/day-13/README.md",
+          "expectedFilename": "day-13-lvm.md"
+        },
+        {
+          "id": 14,
+          "dayFormatted": "Day 14",
+          "title": "Networking Fundamentals and Hands-on Checks",
+          "module": "Networking",
+          "acceleratedDay": 5,
+          "pathRelative": "2026/day-14/README.md",
+          "expectedFilename": "day-14-networking.md"
+        },
+        {
+          "id": 15,
+          "dayFormatted": "Day 15",
+          "title": "Networking Concepts: DNS, IP, Subnets and Ports",
+          "module": "Networking",
+          "acceleratedDay": 5,
+          "pathRelative": "2026/day-15/README.md",
+          "expectedFilename": "day-15-networking-concepts.md"
+        }
+      ]
+    },
+    {
+      "accDay": 6,
+      "title": "Accelerated Day 6",
+      "modules": [
+        "Shell Scripting"
+      ],
+      "tasks": [
+        {
+          "id": 16,
+          "dayFormatted": "Day 16",
+          "title": "Shell Scripting Basics",
+          "module": "Shell Scripting",
+          "acceleratedDay": 6,
+          "pathRelative": "2026/day-16/README.md",
+          "expectedFilename": "day-16-shell-scripting.md"
+        },
+        {
+          "id": 17,
+          "dayFormatted": "Day 17",
+          "title": "Shell Scripting: Loops, Arguments and Error Handling",
+          "module": "Shell Scripting",
+          "acceleratedDay": 6,
+          "pathRelative": "2026/day-17/README.md",
+          "expectedFilename": "day-17-scripting.md"
+        },
+        {
+          "id": 18,
+          "dayFormatted": "Day 18",
+          "title": "Shell Scripting: Functions and Intermediate Concepts",
+          "module": "Shell Scripting",
+          "acceleratedDay": 6,
+          "pathRelative": "2026/day-18/README.md",
+          "expectedFilename": "day-18-scripting.md"
+        }
+      ]
+    },
+    {
+      "accDay": 7,
+      "title": "Accelerated Day 7",
+      "modules": [
+        "Shell Scripting"
+      ],
+      "tasks": [
+        {
+          "id": 19,
+          "dayFormatted": "Day 19",
+          "title": "Shell Scripting Project: Log Rotation, Backup and Crontab",
+          "module": "Shell Scripting",
+          "acceleratedDay": 7,
+          "pathRelative": "2026/day-19/README.md",
+          "expectedFilename": "day-19-project.md"
+        },
+        {
+          "id": 20,
+          "dayFormatted": "Day 20",
+          "title": "Bash Scripting Challenge: Log Analyzer and Report Generator",
+          "module": "Shell Scripting",
+          "acceleratedDay": 7,
+          "pathRelative": "2026/day-20/README.md",
+          "expectedFilename": "day-20-solution.md"
+        },
+        {
+          "id": 21,
+          "dayFormatted": "Day 21",
+          "title": "Shell Scripting Cheat Sheet: Build Your Own Reference Guide",
+          "module": "Shell Scripting",
+          "acceleratedDay": 7,
+          "pathRelative": "2026/day-21/README.md",
+          "expectedFilename": "shell_scripting_cheatsheet.md"
+        }
+      ]
+    },
+    {
+      "accDay": 8,
+      "title": "Accelerated Day 8",
+      "modules": [
+        "Git & GitHub"
+      ],
+      "tasks": [
+        {
+          "id": 22,
+          "dayFormatted": "Day 22",
+          "title": "Introduction to Git: Your First Repository",
+          "module": "Git & GitHub",
+          "acceleratedDay": 8,
+          "pathRelative": "2026/day-22/README.md",
+          "expectedFilename": "git-commands.md"
+        },
+        {
+          "id": 23,
+          "dayFormatted": "Day 23",
+          "title": "Git Branching and Working with GitHub",
+          "module": "Git & GitHub",
+          "acceleratedDay": 8,
+          "pathRelative": "2026/day-23/README.md",
+          "expectedFilename": "day-23-notes.md"
+        },
+        {
+          "id": 24,
+          "dayFormatted": "Day 24",
+          "title": "Advanced Git: Merge, Rebase, Stash and Cherry Pick",
+          "module": "Git & GitHub",
+          "acceleratedDay": 8,
+          "pathRelative": "2026/day-24/README.md",
+          "expectedFilename": "day-24-notes.md"
+        }
+      ]
+    },
+    {
+      "accDay": 9,
+      "title": "Accelerated Day 9",
+      "modules": [
+        "Git & GitHub"
+      ],
+      "tasks": [
+        {
+          "id": 25,
+          "dayFormatted": "Day 25",
+          "title": "Git Reset vs Revert and Branching Strategies",
+          "module": "Git & GitHub",
+          "acceleratedDay": 9,
+          "pathRelative": "2026/day-25/README.md",
+          "expectedFilename": "day-25-notes.md"
+        },
+        {
+          "id": 26,
+          "dayFormatted": "Day 26",
+          "title": "GitHub CLI: Manage GitHub from Your Terminal",
+          "module": "Git & GitHub",
+          "acceleratedDay": 9,
+          "pathRelative": "2026/day-26/README.md",
+          "expectedFilename": "day-26-notes.md"
+        },
+        {
+          "id": 27,
+          "dayFormatted": "Day 27",
+          "title": "GitHub Profile Makeover: Build Your Developer Identity",
+          "module": "Git & GitHub",
+          "acceleratedDay": 9,
+          "pathRelative": "2026/day-27/README.md",
+          "expectedFilename": "day-27-notes.md"
+        }
+      ]
+    },
+    {
+      "accDay": 10,
+      "title": "Accelerated Day 10",
+      "modules": [
+        "Git & GitHub",
+        "Docker"
+      ],
+      "tasks": [
+        {
+          "id": 28,
+          "dayFormatted": "Day 28",
+          "title": "Revision Day: Everything from Day 1 to Day 27",
+          "module": "Git & GitHub",
+          "acceleratedDay": 10,
+          "pathRelative": "2026/day-28/README.md",
+          "expectedFilename": "day-28-revision-summary.md"
+        },
+        {
+          "id": 29,
+          "dayFormatted": "Day 29",
+          "title": "Introduction to Docker",
+          "module": "Docker",
+          "acceleratedDay": 10,
+          "pathRelative": "2026/day-29/README.md",
+          "expectedFilename": "day-29-docker-basics.md"
+        },
+        {
+          "id": 30,
+          "dayFormatted": "Day 30",
+          "title": "Docker Images and Container Lifecycle",
+          "module": "Docker",
+          "acceleratedDay": 10,
+          "pathRelative": "2026/day-30/README.md",
+          "expectedFilename": "day-30-images.md"
+        }
+      ]
+    },
+    {
+      "accDay": 11,
+      "title": "Accelerated Day 11",
+      "modules": [
+        "Docker"
+      ],
+      "tasks": [
+        {
+          "id": 31,
+          "dayFormatted": "Day 31",
+          "title": "Dockerfile: Build Your Own Images",
+          "module": "Docker",
+          "acceleratedDay": 11,
+          "pathRelative": "2026/day-31/README.md",
+          "expectedFilename": "day-31-dockerfile.md"
+        },
+        {
+          "id": 32,
+          "dayFormatted": "Day 32",
+          "title": "Docker Volumes and Networking",
+          "module": "Docker",
+          "acceleratedDay": 11,
+          "pathRelative": "2026/day-32/README.md",
+          "expectedFilename": "day-32-volumes-networking.md"
+        },
+        {
+          "id": 33,
+          "dayFormatted": "Day 33",
+          "title": "Docker Compose: Multi-Container Basics",
+          "module": "Docker",
+          "acceleratedDay": 11,
+          "pathRelative": "2026/day-33/README.md",
+          "expectedFilename": "day-33-compose.md"
+        }
+      ]
+    },
+    {
+      "accDay": 12,
+      "title": "Accelerated Day 12",
+      "modules": [
+        "Docker"
+      ],
+      "tasks": [
+        {
+          "id": 34,
+          "dayFormatted": "Day 34",
+          "title": "Docker Compose: Real-World Multi-Container Apps",
+          "module": "Docker",
+          "acceleratedDay": 12,
+          "pathRelative": "2026/day-34/README.md",
+          "expectedFilename": "day-34-compose-advanced.md"
+        },
+        {
+          "id": 35,
+          "dayFormatted": "Day 35",
+          "title": "Multi-Stage Builds and Docker Hub",
+          "module": "Docker",
+          "acceleratedDay": 12,
+          "pathRelative": "2026/day-35/README.md",
+          "expectedFilename": "day-35-multistage-hub.md"
+        },
+        {
+          "id": 36,
+          "dayFormatted": "Day 36",
+          "title": "Docker Project: Dockerize a Full Application",
+          "module": "Docker",
+          "acceleratedDay": 12,
+          "pathRelative": "2026/day-36/README.md",
+          "expectedFilename": "day-36-docker-project.md"
+        }
+      ]
+    },
+    {
+      "accDay": 13,
+      "title": "Accelerated Day 13",
+      "modules": [
+        "Docker",
+        "CI/CD & GitHub Actions"
+      ],
+      "tasks": [
+        {
+          "id": 37,
+          "dayFormatted": "Day 37",
+          "title": "Docker Revision and Cheat Sheet",
+          "module": "Docker",
+          "acceleratedDay": 13,
+          "pathRelative": "2026/day-37/README.md",
+          "expectedFilename": "docker-cheatsheet.md"
+        },
+        {
+          "id": 38,
+          "dayFormatted": "Day 38",
+          "title": "YAML Basics",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 13,
+          "pathRelative": "2026/day-38/README.md",
+          "expectedFilename": "day-38-yaml.md"
+        },
+        {
+          "id": 39,
+          "dayFormatted": "Day 39",
+          "title": "What is CI/CD?",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 13,
+          "pathRelative": "2026/day-39/README.md",
+          "expectedFilename": "day-39-cicd-concepts.md"
+        }
+      ]
+    },
+    {
+      "accDay": 14,
+      "title": "Accelerated Day 14",
+      "modules": [
+        "CI/CD & GitHub Actions"
+      ],
+      "tasks": [
+        {
+          "id": 40,
+          "dayFormatted": "Day 40",
+          "title": "Your First GitHub Actions Workflow",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 14,
+          "pathRelative": "2026/day-40/README.md",
+          "expectedFilename": "day-40-first-workflow.md"
+        },
+        {
+          "id": 41,
+          "dayFormatted": "Day 41",
+          "title": "Triggers and Matrix Builds",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 14,
+          "pathRelative": "2026/day-41/README.md",
+          "expectedFilename": "day-41-triggers.md"
+        },
+        {
+          "id": 42,
+          "dayFormatted": "Day 42",
+          "title": "Runners: GitHub-Hosted and Self-Hosted",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 14,
+          "pathRelative": "2026/day-42/README.md",
+          "expectedFilename": "day-42-runners.md"
+        }
+      ]
+    },
+    {
+      "accDay": 15,
+      "title": "Accelerated Day 15",
+      "modules": [
+        "CI/CD & GitHub Actions"
+      ],
+      "tasks": [
+        {
+          "id": 43,
+          "dayFormatted": "Day 43",
+          "title": "Jobs, Steps, Env Vars and Conditionals",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 15,
+          "pathRelative": "2026/day-43/README.md",
+          "expectedFilename": "day-43-jobs-steps.md"
+        },
+        {
+          "id": 44,
+          "dayFormatted": "Day 44",
+          "title": "Secrets, Artifacts and Running Real Tests in CI",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 15,
+          "pathRelative": "2026/day-44/README.md",
+          "expectedFilename": "day-44-secrets-artifacts.md"
+        },
+        {
+          "id": 45,
+          "dayFormatted": "Day 45",
+          "title": "Docker Build and Push in GitHub Actions",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 15,
+          "pathRelative": "2026/day-45/README.md",
+          "expectedFilename": "day-45-docker-cicd.md"
+        }
+      ]
+    },
+    {
+      "accDay": 16,
+      "title": "Accelerated Day 16",
+      "modules": [
+        "CI/CD & GitHub Actions"
+      ],
+      "tasks": [
+        {
+          "id": 46,
+          "dayFormatted": "Day 46",
+          "title": "Reusable Workflows and Composite Actions",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 16,
+          "pathRelative": "2026/day-46/README.md",
+          "expectedFilename": "day-46-reusable-workflows.md"
+        },
+        {
+          "id": 47,
+          "dayFormatted": "Day 47",
+          "title": "Advanced Triggers: PR Events, Cron Schedules and Event-Driven Pipelines",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 16,
+          "pathRelative": "2026/day-47/README.md",
+          "expectedFilename": "day-47-advanced-triggers.md"
+        },
+        {
+          "id": 48,
+          "dayFormatted": "Day 48",
+          "title": "GitHub Actions Project: End-to-End CI/CD Pipeline",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 16,
+          "pathRelative": "2026/day-48/README.md",
+          "expectedFilename": "day-48-actions-project.md"
+        }
+      ]
+    },
+    {
+      "accDay": 17,
+      "title": "Accelerated Day 17",
+      "modules": [
+        "CI/CD & GitHub Actions",
+        "Kubernetes"
+      ],
+      "tasks": [
+        {
+          "id": 49,
+          "dayFormatted": "Day 49",
+          "title": "DevSecOps: Add Security to Your CI/CD Pipeline",
+          "module": "CI/CD & GitHub Actions",
+          "acceleratedDay": 17,
+          "pathRelative": "2026/day-49/README.md",
+          "expectedFilename": "day-49-devsecops.md"
+        },
+        {
+          "id": 50,
+          "dayFormatted": "Day 50",
+          "title": "Kubernetes Architecture and Cluster Setup",
+          "module": "Kubernetes",
+          "acceleratedDay": 17,
+          "pathRelative": "2026/day-50/README.md",
+          "expectedFilename": "day-50-k8s-setup.md"
+        },
+        {
+          "id": 51,
+          "dayFormatted": "Day 51",
+          "title": "Kubernetes Manifests and Your First Pods",
+          "module": "Kubernetes",
+          "acceleratedDay": 17,
+          "pathRelative": "2026/day-51/README.md",
+          "expectedFilename": "day-51-pods.md"
+        }
+      ]
+    },
+    {
+      "accDay": 18,
+      "title": "Accelerated Day 18",
+      "modules": [
+        "Kubernetes"
+      ],
+      "tasks": [
+        {
+          "id": 52,
+          "dayFormatted": "Day 52",
+          "title": "Kubernetes Namespaces and Deployments",
+          "module": "Kubernetes",
+          "acceleratedDay": 18,
+          "pathRelative": "2026/day-52/README.md",
+          "expectedFilename": "day-52-namespaces-deployments.md"
+        },
+        {
+          "id": 53,
+          "dayFormatted": "Day 53",
+          "title": "Kubernetes Services",
+          "module": "Kubernetes",
+          "acceleratedDay": 18,
+          "pathRelative": "2026/day-53/README.md",
+          "expectedFilename": "day-53-services.md"
+        },
+        {
+          "id": 54,
+          "dayFormatted": "Day 54",
+          "title": "Kubernetes ConfigMaps and Secrets",
+          "module": "Kubernetes",
+          "acceleratedDay": 18,
+          "pathRelative": "2026/day-54/README.md",
+          "expectedFilename": "day-54-configmaps-secrets.md"
+        }
+      ]
+    },
+    {
+      "accDay": 19,
+      "title": "Accelerated Day 19",
+      "modules": [
+        "Kubernetes"
+      ],
+      "tasks": [
+        {
+          "id": 55,
+          "dayFormatted": "Day 55",
+          "title": "Persistent Volumes (PV) and Persistent Volume Claims (PVC)",
+          "module": "Kubernetes",
+          "acceleratedDay": 19,
+          "pathRelative": "2026/day-55/README.md",
+          "expectedFilename": "day-55-persistent-volumes.md"
+        },
+        {
+          "id": 56,
+          "dayFormatted": "Day 56",
+          "title": "Kubernetes StatefulSets",
+          "module": "Kubernetes",
+          "acceleratedDay": 19,
+          "pathRelative": "2026/day-56/README.md",
+          "expectedFilename": "day-56-statefulsets.md"
+        },
+        {
+          "id": 57,
+          "dayFormatted": "Day 57",
+          "title": "Resource Requests, Limits, and Probes",
+          "module": "Kubernetes",
+          "acceleratedDay": 19,
+          "pathRelative": "2026/day-57/README.md",
+          "expectedFilename": "day-57-resources-probes.md"
+        }
+      ]
+    },
+    {
+      "accDay": 20,
+      "title": "Accelerated Day 20",
+      "modules": [
+        "Kubernetes"
+      ],
+      "tasks": [
+        {
+          "id": 58,
+          "dayFormatted": "Day 58",
+          "title": "Metrics Server and Horizontal Pod Autoscaler (HPA)",
+          "module": "Kubernetes",
+          "acceleratedDay": 20,
+          "pathRelative": "2026/day-58/README.md",
+          "expectedFilename": "day-58-metrics-hpa.md"
+        },
+        {
+          "id": 59,
+          "dayFormatted": "Day 59",
+          "title": "Helm -- Kubernetes Package Manager",
+          "module": "Kubernetes",
+          "acceleratedDay": 20,
+          "pathRelative": "2026/day-59/README.md",
+          "expectedFilename": "day-59-helm.md"
+        },
+        {
+          "id": 60,
+          "dayFormatted": "Day 60",
+          "title": "Capstone: Deploy WordPress + MySQL on Kubernetes",
+          "module": "Kubernetes",
+          "acceleratedDay": 20,
+          "pathRelative": "2026/day-60/README.md",
+          "expectedFilename": "day-60-capstone.md"
+        }
+      ]
+    },
+    {
+      "accDay": 21,
+      "title": "Accelerated Day 21",
+      "modules": [
+        "Terraform"
+      ],
+      "tasks": [
+        {
+          "id": 61,
+          "dayFormatted": "Day 61",
+          "title": "Introduction to Terraform and Your First AWS Infrastructure",
+          "module": "Terraform",
+          "acceleratedDay": 21,
+          "pathRelative": "2026/day-61/README.md",
+          "expectedFilename": "day-61-terraform-intro.md"
+        },
+        {
+          "id": 62,
+          "dayFormatted": "Day 62",
+          "title": "Providers, Resources and Dependencies",
+          "module": "Terraform",
+          "acceleratedDay": 21,
+          "pathRelative": "2026/day-62/README.md",
+          "expectedFilename": "day-62-providers-resources.md"
+        },
+        {
+          "id": 63,
+          "dayFormatted": "Day 63",
+          "title": "Variables, Outputs, Data Sources and Expressions",
+          "module": "Terraform",
+          "acceleratedDay": 21,
+          "pathRelative": "2026/day-63/README.md",
+          "expectedFilename": "day-63-variables-outputs.md"
+        }
+      ]
+    },
+    {
+      "accDay": 22,
+      "title": "Accelerated Day 22",
+      "modules": [
+        "Terraform"
+      ],
+      "tasks": [
+        {
+          "id": 64,
+          "dayFormatted": "Day 64",
+          "title": "Terraform State Management and Remote Backends",
+          "module": "Terraform",
+          "acceleratedDay": 22,
+          "pathRelative": "2026/day-64/README.md",
+          "expectedFilename": "day-64-state-management.md"
+        },
+        {
+          "id": 65,
+          "dayFormatted": "Day 65",
+          "title": "Terraform Modules: Build Reusable Infrastructure",
+          "module": "Terraform",
+          "acceleratedDay": 22,
+          "pathRelative": "2026/day-65/README.md",
+          "expectedFilename": "day-65-modules.md"
+        },
+        {
+          "id": 66,
+          "dayFormatted": "Day 66",
+          "title": "Provision an EKS Cluster with Terraform Modules",
+          "module": "Terraform",
+          "acceleratedDay": 22,
+          "pathRelative": "2026/day-66/README.md",
+          "expectedFilename": "day-66-eks-terraform.md"
+        }
+      ]
+    },
+    {
+      "accDay": 23,
+      "title": "Accelerated Day 23",
+      "modules": [
+        "Terraform",
+        "Ansible"
+      ],
+      "tasks": [
+        {
+          "id": 67,
+          "dayFormatted": "Day 67",
+          "title": "TerraWeek Capstone: Multi-Environment Infrastructure with Workspaces and Modules",
+          "module": "Terraform",
+          "acceleratedDay": 23,
+          "pathRelative": "2026/day-67/README.md",
+          "expectedFilename": "day-67-terraweek-capstone.md"
+        },
+        {
+          "id": 68,
+          "dayFormatted": "Day 68",
+          "title": "Introduction to Ansible and Inventory Setup",
+          "module": "Ansible",
+          "acceleratedDay": 23,
+          "pathRelative": "2026/day-68/README.md",
+          "expectedFilename": "day-68-ansible-intro.md"
+        },
+        {
+          "id": 69,
+          "dayFormatted": "Day 69",
+          "title": "Ansible Playbooks and Modules",
+          "module": "Ansible",
+          "acceleratedDay": 23,
+          "pathRelative": "2026/day-69/README.md",
+          "expectedFilename": "day-69-playbooks.md"
+        }
+      ]
+    },
+    {
+      "accDay": 24,
+      "title": "Accelerated Day 24",
+      "modules": [
+        "Ansible"
+      ],
+      "tasks": [
+        {
+          "id": 70,
+          "dayFormatted": "Day 70",
+          "title": "Variables, Facts, Conditionals and Loops",
+          "module": "Ansible",
+          "acceleratedDay": 24,
+          "pathRelative": "2026/day-70/README.md",
+          "expectedFilename": "day-70-variables-loops.md"
+        },
+        {
+          "id": 71,
+          "dayFormatted": "Day 71",
+          "title": "Roles, Galaxy, Templates and Vault",
+          "module": "Ansible",
+          "acceleratedDay": 24,
+          "pathRelative": "2026/day-71/README.md",
+          "expectedFilename": "day-71-roles-templates-vault.md"
+        },
+        {
+          "id": 72,
+          "dayFormatted": "Day 72",
+          "title": "Ansible Project: Automate Docker and Nginx Deployment",
+          "module": "Ansible",
+          "acceleratedDay": 24,
+          "pathRelative": "2026/day-72/README.md",
+          "expectedFilename": "day-72-ansible-project.md"
+        }
+      ]
+    },
+    {
+      "accDay": 25,
+      "title": "Accelerated Day 25",
+      "modules": [
+        "Observability"
+      ],
+      "tasks": [
+        {
+          "id": 73,
+          "dayFormatted": "Day 73",
+          "title": "Introduction to Observability and Prometheus",
+          "module": "Observability",
+          "acceleratedDay": 25,
+          "pathRelative": "2026/day-73/README.md",
+          "expectedFilename": "day-73-observability-prometheus.md"
+        },
+        {
+          "id": 74,
+          "dayFormatted": "Day 74",
+          "title": "Node Exporter, cAdvisor, and Grafana Dashboards",
+          "module": "Observability",
+          "acceleratedDay": 25,
+          "pathRelative": "2026/day-74/README.md",
+          "expectedFilename": "day-74-exporters-grafana.md"
+        },
+        {
+          "id": 75,
+          "dayFormatted": "Day 75",
+          "title": "Log Management with Loki and Promtail",
+          "module": "Observability",
+          "acceleratedDay": 25,
+          "pathRelative": "2026/day-75/README.md",
+          "expectedFilename": "day-75-loki-promtail.md"
+        }
+      ]
+    },
+    {
+      "accDay": 26,
+      "title": "Accelerated Day 26",
+      "modules": [
+        "Observability",
+        "Helm & EKS & GitOps"
+      ],
+      "tasks": [
+        {
+          "id": 76,
+          "dayFormatted": "Day 76",
+          "title": "OpenTelemetry and Alerting",
+          "module": "Observability",
+          "acceleratedDay": 26,
+          "pathRelative": "2026/day-76/README.md",
+          "expectedFilename": "day-76-otel-alerting.md"
+        },
+        {
+          "id": 77,
+          "dayFormatted": "Day 77",
+          "title": "Observability Project: Full Stack with Docker Compose",
+          "module": "Observability",
+          "acceleratedDay": 26,
+          "pathRelative": "2026/day-77/README.md",
+          "expectedFilename": "day-77-observability-project.md"
+        },
+        {
+          "id": 78,
+          "dayFormatted": "Day 78",
+          "title": "Introduction to Helm and Chart Basics",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 26,
+          "pathRelative": "2026/day-78/README.md",
+          "expectedFilename": "day-78-helm-intro.md"
+        }
+      ]
+    },
+    {
+      "accDay": 27,
+      "title": "Accelerated Day 27",
+      "modules": [
+        "Helm & EKS & GitOps"
+      ],
+      "tasks": [
+        {
+          "id": 79,
+          "dayFormatted": "Day 79",
+          "title": "Creating a Custom Helm Chart for AI-BankApp",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 27,
+          "pathRelative": "2026/day-79/README.md",
+          "expectedFilename": "day-79-custom-charts.md"
+        },
+        {
+          "id": 80,
+          "dayFormatted": "Day 80",
+          "title": "Helm Project: Multi-Environment Deployment and CI/CD",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 27,
+          "pathRelative": "2026/day-80/README.md",
+          "expectedFilename": "day-80-helm-project.md"
+        },
+        {
+          "id": 81,
+          "dayFormatted": "Day 81",
+          "title": "Introduction to Amazon EKS with Terraform",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 27,
+          "pathRelative": "2026/day-81/README.md",
+          "expectedFilename": "day-81-eks-intro.md"
+        }
+      ]
+    },
+    {
+      "accDay": 28,
+      "title": "Accelerated Day 28",
+      "modules": [
+        "Helm & EKS & GitOps"
+      ],
+      "tasks": [
+        {
+          "id": 82,
+          "dayFormatted": "Day 82",
+          "title": "EKS Networking with Gateway API and Persistent Storage",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 28,
+          "pathRelative": "2026/day-82/README.md",
+          "expectedFilename": "day-82-eks-networking-storage.md"
+        },
+        {
+          "id": 83,
+          "dayFormatted": "Day 83",
+          "title": "EKS Project: Production Deployment of AI-BankApp",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 28,
+          "pathRelative": "2026/day-83/README.md",
+          "expectedFilename": "day-83-eks-project.md"
+        },
+        {
+          "id": 84,
+          "dayFormatted": "Day 84",
+          "title": "Introduction to GitOps and ArgoCD",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 28,
+          "pathRelative": "2026/day-84/README.md",
+          "expectedFilename": "day-84-gitops-argocd.md"
+        }
+      ]
+    },
+    {
+      "accDay": 29,
+      "title": "Accelerated Day 29",
+      "modules": [
+        "Helm & EKS & GitOps",
+        "Agentic AI for DevOps"
+      ],
+      "tasks": [
+        {
+          "id": 85,
+          "dayFormatted": "Day 85",
+          "title": "ArgoCD Deep Dive: Sync Strategies, Rollbacks, and Multi-App Management",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 29,
+          "pathRelative": "2026/day-85/README.md",
+          "expectedFilename": "day-85-argocd-deep-dive.md"
+        },
+        {
+          "id": 86,
+          "dayFormatted": "Day 86",
+          "title": "GitOps Project: End-to-End CI/CD Pipeline with AI-BankApp",
+          "module": "Helm & EKS & GitOps",
+          "acceleratedDay": 29,
+          "pathRelative": "2026/day-86/README.md",
+          "expectedFilename": "day-86-gitops-project.md"
+        },
+        {
+          "id": 87,
+          "dayFormatted": "Day 87",
+          "title": "Introduction to Agentic AI for DevOps",
+          "module": "Agentic AI for DevOps",
+          "acceleratedDay": 29,
+          "pathRelative": "2026/day-87/README.md",
+          "expectedFilename": "day-87-agentic-ai-intro.md"
+        }
+      ]
+    },
+    {
+      "accDay": 30,
+      "title": "Accelerated Day 30",
+      "modules": [
+        "Agentic AI for DevOps"
+      ],
+      "tasks": [
+        {
+          "id": 88,
+          "dayFormatted": "Day 88",
+          "title": "Multi-Tool Agents, MCP, and CI/CD Analyzer",
+          "module": "Agentic AI for DevOps",
+          "acceleratedDay": 30,
+          "pathRelative": "2026/day-88/README.md",
+          "expectedFilename": "day-88-multi-tool-mcp.md"
+        },
+        {
+          "id": 89,
+          "dayFormatted": "Day 89",
+          "title": "Production AI Agents: KubeHealer and AIOps",
+          "module": "Agentic AI for DevOps",
+          "acceleratedDay": 30,
+          "pathRelative": "2026/day-89/README.md",
+          "expectedFilename": "day-89-kubehealer-aiops.md"
+        },
+        {
+          "id": 90,
+          "dayFormatted": "Day 90",
+          "title": "Grand Finale: The Complete DevOps Journey",
+          "module": "Agentic AI for DevOps",
+          "acceleratedDay": 30,
+          "pathRelative": "2026/day-90/README.md",
+          "expectedFilename": "day-90-graduation.md"
+        }
+      ]
+    }
+  ]
+}

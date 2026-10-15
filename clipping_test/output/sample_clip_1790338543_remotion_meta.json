@@ -1,0 +1,55 @@
+{
+  "videoSrc": "/home/kv/workspace/clipping_test/output/sample_clip_1790338543_clean.mp4",
+  "hookTitle": "HOW TO GO VIRAL",
+  "hookSubtitle": "Watch closely \ud83d\udc40",
+  "accentColor": "#FFD700",
+  "showProgressBar": true,
+  "watermark": "@viral_clips",
+  "words": [
+    {
+      "word": "LISTEN",
+      "startMs": 400,
+      "endMs": 800
+    },
+    {
+      "word": "TO",
+      "startMs": 800,
+      "endMs": 1050
+    },
+    {
+      "word": "THIS",
+      "startMs": 1050,
+      "endMs": 1500
+    },
+    {
+      "word": "CAREFULLY",
+      "startMs": 1500,
+      "endMs": 2200
+    },
+    {
+      "word": "BECAUSE",
+      "startMs": 2200,
+      "endMs": 2600
+    },
+    {
+      "word": "IT",
+      "startMs": 2600,
+      "endMs": 2850
+    },
+    {
+      "word": "CAN",
+      "startMs": 2850,
+      "endMs": 3100
+    },
+    {
+      "word": "CHANGE",
+      "startMs": 3100,
+      "endMs": 3600
+    },
+    {
+      "word": "EVERYTHING.",
+      "startMs": 3600,
+      "endMs": 4400
+    }
+  ]
+}

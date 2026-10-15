@@ -1,0 +1,79 @@
+---
+# =============================================================================
+# AI-Toolkit (ostris) — FLUX.1-dev character LoRA for the AI influencer "kruthika"
+# Run with:  bash scripts/train_lora_flux.sh   (wraps `python run.py <this file>`)
+#
+# Dataset layout (AI-Toolkit uses a FLAT folder — no Kohya "20_kruthika" repeats):
+#   /workspace/dataset/kruthika/*.png  (+ matching *.txt captions)
+# Captions: trigger word first, describe ONLY what varies (framing/outfit/setting),
+#   never the face/body/skin — those bake into the trigger "kruthika".
+#
+# Tuned for a 48GB GPU (A6000 / A100 / L40S): full bf16, no quantization, EMA on.
+# =============================================================================
+job: extension
+config:
+  name: "kruthika_flux"
+  process:
+    - type: "sd_trainer"
+      training_folder: "/workspace/output"
+      device: cuda:0
+      trigger_word: "kruthika"
+
+      network:
+        type: "lora"
+        linear: 16 # rank — 16 is plenty for a single identity on FLUX
+        linear_alpha: 16 # alpha == rank is the FLUX convention
+
+      save:
+        dtype: float16
+        save_every: 250 # keep checkpoints; sweet spot is usually 750–1500
+        max_step_saves_to_keep: 8
+        push_to_hub: false
+
+      datasets:
+        - folder_path: "/workspace/dataset/kruthika"
+          caption_ext: "txt"
+          caption_dropout_rate: 0.05 # occasionally drop caption -> stronger trigger binding
+          shuffle_tokens: false # keep the trigger pinned at the front
+          cache_latents_to_disk: true
+          resolution: [768, 1024] # multi-res buckets; portrait-friendly
+
+      train:
+        batch_size: 1
+        steps: 2000
+        gradient_accumulation_steps: 1
+        train_unet: true
+        train_text_encoder: false # FLUX character LoRAs train the transformer only
+        gradient_checkpointing: true
+        noise_scheduler: "flowmatch" # FLUX uses flow-matching, not DDPM
+        optimizer: "adamw8bit"
+        lr: 1e-4 # proven ostris default; raise to 2e-4 if underfitting
+        dtype: bf16
+        ema_config:
+          use_ema: true
+          ema_decay: 0.99
+
+      model:
+        name_or_path: "black-forest-labs/FLUX.1-dev" # pulled via HF (needs HF_TOKEN + license)
+        is_flux: true
+        quantize: false # 48GB fits full precision; no NF4/fp8 needed
+
+      sample:
+        sampler: "flowmatch"
+        sample_every: 250
+        width: 832
+        height: 1216
+        guidance_scale: 4
+        sample_steps: 25
+        seed: 42
+        walk_seed: true
+        neg: "" # FLUX.1-dev is distilled — no real negative prompt
+        prompts:
+          - "kruthika, photorealistic portrait, neutral expression, soft studio light"
+          - "kruthika, full body, standing, fitted crop top and leggings, plain grey backdrop"
+          - "kruthika, sitting in the driver seat of a car, one hand on the wheel, daylight"
+          - "a woman standing in a park" # NO trigger — should NOT look like her (overfit check)
+
+meta:
+  name: "kruthika_flux"
+  version: "1.0"
